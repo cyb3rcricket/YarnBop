@@ -59,3 +59,8 @@ ios/Flutter/flutter_assets/
 ios/ServiceDefinitions.json
 ios/Pods/
 ios/Podfile.lock
+
+# Secrets — never commit real env files (added Nov 9, 2026, Proof of Ship sweep)
+.env
+.env.*
+!.env.example
